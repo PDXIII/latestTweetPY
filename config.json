@@ -14,8 +14,8 @@
   "hash tag":               "ANY_HASH_TAG_WITH_LEADING_#",
   "target path":            "THE_PATH_TO_THE_FILE_YOU_WANT_TO_SAVE_INCLUDING_THE_FILE_NAME",
   "tweet count":            "INTEGER_OF_HOW_MANY_TWEETS_YOU_WANT"
-
 }
+
 // When you have set all variables, change the name of this file
 // from 'config.json' to '.config.json' (with leading period)!
 // Only then ths file is invisible and the python script can access it.

@@ -6,7 +6,7 @@
   </head>
 
   <body>
-      <h1>LatestTweetByHashtag</h1>
+      <h1>latestTweet.py</h1>
       <p>
         When you followed all the installation steps in the README.md correctly, you should see your last tweet below:
       </p>
@@ -15,11 +15,11 @@
     </div>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script>
-    
+
       $(function() {
         'use strict';
 
-      // ACHTUNG: The name of this JSON file is set in the .config.json
+      // ACHTUNG: The name of that JSON file is set in the .config.json
         var url = 'latestTweet.json';
 
         $.getJSON(url, function (response){

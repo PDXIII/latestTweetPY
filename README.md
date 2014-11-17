@@ -1,5 +1,5 @@
-LatestTweetByHashTag
-====================
+latestTweet.py
+==============
 
 There was a time, when Twitter changed its API and a lot of plug ins stopped working. At this time I just wanted to display my latest tweet on my own website, but without all that Twitter branded clutter. So, I decided to write my own server sided plug in.
 
