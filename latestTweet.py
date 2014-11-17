@@ -1,7 +1,7 @@
 #!usr/bin/env python2.7
 #-*- coding: iso-8859-1 -*-
 
-# the first editon was very mauch based on this example: http://stackoverflow.com/a/14177040/1728652
+# the first editon was very much based on this example: http://stackoverflow.com/a/14177040/1728652
 # after some refactoring it is now very clean, commented and beautiful!
 
 import sys
@@ -18,7 +18,8 @@ def saveTweetData(pathToSaveFile, data):
     saveFile.write(json.dumps(data))
 
 def main():
-  # read the config
+  # read settings from the config file
+  # the path to the config file should be root relative
   config = readConfig('.config.json')
   # creating the search query using the our parameters
   searchQuery = 'from:%s %s' % (config['user screen name'],
