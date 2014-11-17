@@ -1,0 +1,22 @@
+{
+  "access level":           "THE_VARIABLES_YOU'LL_GET_FROM_TWITTER",
+  "consumer key":           "THE_VARIABLES_YOU'LL_GET_FROM_TWITTER",
+  "consumer secret":        "THE_VARIABLES_YOU'LL_GET_FROM_TWITTER",
+  "request token URL":      "THE_VARIABLES_YOU'LL_GET_FROM_TWITTER",
+  "authorize URL":          "THE_VARIABLES_YOU'LL_GET_FROM_TWITTER",
+  "access token URL":       "THE_VARIABLES_YOU'LL_GET_FROM_TWITTER",
+  "callback URL":           "THE_VARIABLES_YOU'LL_GET_FROM_TWITTER",
+  "sign in with Twitter":   "THE_VARIABLES_YOU'LL_GET_FROM_TWITTER",
+  "access token":           "THE_VARIABLES_YOU'LL_GET_FROM_TWITTER",
+  "access token secret":    "THE_VARIABLES_YOU'LL_GET_FROM_TWITTER",
+  "access level":           "THE_VARIABLES_YOU'LL_GET_FROM_TWITTER",
+  "user screen name":       "ANY_USER_SCREEN_NAME",
+  "hash tag":               "ANY_HASH_TAG_WITH_LEADING_#",
+  "target path":            "THE_PATH_TO_THE_FILE_YOU_WANT_TO_SAVE_INCLUDING_THE_FILE_NAME",
+  "tweet count":            "INTEGER_OF_HOW_MANY_TWEETS_YOU_WANT"
+
+}
+// When you have set all variables, change the name of this file
+// from 'config.json' to '.config.json' (with leading period)!
+// Only then ths file is invisible and the python script can access it.
+// After that you should delete this comment!
