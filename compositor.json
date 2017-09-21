@@ -1,0 +1,83 @@
+{
+  "name": "PDXIII/latestTweetPY",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Latest Tweet Py",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/PDXIII/latestTweetPY",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "latestTweetPY",
+      "subhead": "Server side python script that fetches the last tweet by a given user with a given hash tag.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "latestTweetPY: Server side python script that fetches the last tweet by a given user with a given hash tag.",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "PDXIII",
+          "repo": "latestTweetPY"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p>There was a time, when Twitter changed its API and a lot of plug ins stopped working. At this time I just wanted to display my latest tweet on my own website, but without all that Twitter branded clutter. So, I decided to write my own server sided plug in.</p>\n<p>If you want to display your latest tweet with a specified #hashtag on a website, then this could maybe interesting for you!</p>\n<h3>Installation</h3>\n<ol>\n<li>Head over to <a href=\"https://dev.twitter.com\">Twitter Developers</a>.</li>\n<li>Register yourself as developer and register a new app.</li>\n<li>Look for a safe directory on your server (e.g. <code>/bin</code>).</li>\n<li>Clone this repository into that directory.</li>\n<li>Make sure you have <a href=\"https://twython.readthedocs.org/en/latest/usage/install.html\">Twython</a> installed</li>\n<li>Open <code>config.json</code> set the parameters and save as <code>.config.json</code>.</li>\n<li>Setup a cronjob, which continously runs the script e.g. <code>*/10 * * * * PATH_TO_YOUR_SCRIPT/latestTweet.py</code>.</li>\n</ol>\n<h3>Dependencies</h3>\n<ul>\n<li><a href=\"https://twython.readthedocs.org/en/latest/usage/install.html\">Twython</a> - Actively maintained, pure Python wrapper for the Twitter API.</li>\n</ul>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/PDXIII/latestTweetPY",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/PDXIII",
+          "text": "PDXIII"
+        }
+      ]
+    }
+  ]
+}
